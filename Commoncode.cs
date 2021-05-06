@@ -16,7 +16,7 @@ namespace AutomationLibraries
         public static IWebDriver driver;
         public static void clickbutton(string logicalname)
         {
-
+                driver.Click();
         }
 
         public static void selectdropdown(string value ,string logicalname)
