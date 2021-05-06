@@ -16,7 +16,7 @@ namespace AutomationLibraries
         public static IWebDriver driver;
         public static void clickbutton(string logicalname)
         {
-                driver.Click();
+                ele.Click();
         }
 
         public static void selectdropdown(string value ,string logicalname)
@@ -26,7 +26,7 @@ namespace AutomationLibraries
 
         public static void entertext(string logicalname)
         {
-
+            ele.sendkeys();
         }
 
         public static void driversetup()
