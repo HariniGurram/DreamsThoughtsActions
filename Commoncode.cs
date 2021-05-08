@@ -36,7 +36,7 @@ namespace AutomationLibraries
             string path = Environment.GetEnvironmentVariable("chromepath");
             driver = new ChromeDriver(path);
             driver.Navigate().GoToUrl("http://demo.automationtesting.in/");
-            driver.Manage().Window.Maximize();
+            
 
         }
 
